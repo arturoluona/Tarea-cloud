@@ -10,7 +10,7 @@
     <div class="card mt-3">
       <div class="card-body">
         <form  @submit.prevent="onSubmit">
-          <label for="name">Name</label>
+          <label for="name">NAME</label>
           <input required type="text" id="name" v-model="$store.state.edit.name" class="form-control">
 
           <label for="description">Description</label>
