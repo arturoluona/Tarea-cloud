@@ -5,7 +5,7 @@
         <img src="../assets/icons/add.png" width="30" alt=""> &nbsp;&nbsp;
         Task
       </h3>
-      <button @click="clearForm" class="btn btn-success">New</button>
+      <button  @click="clearForm" class="btn btn-success">New</button>
     </div>
     <div class="card mt-3">
       <div class="card-body">
